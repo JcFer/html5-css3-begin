@@ -1,0 +1,181 @@
+/*Conteudo*/
+body {
+    background-color: #F2FFFC;
+}
+
+div {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+article {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+article .mais {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    font-family: sans-serif;
+}
+
+hr {
+    color: #ccc;
+}
+
+main {
+    float: left;
+    width: 82%;
+}
+
+main h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+    background-color: #851944;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border-bottom: 10px solid black;
+    text-transform: uppercase;
+}
+
+main div {
+    padding: 30px 0px;
+}
+
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    clear: both;
+}
+
+p {
+    font-family: "Crimson Text";
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+main a {
+    text-decoration: none;
+    color: #851944;
+}
+
+main a:hover {
+    color: chocolate;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px solid transparent;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+/*Nav-Bar*/
+aside {
+    background-color: #3C1D3D;
+    text-align: center;
+    padding: 20px;
+    width: 18%;
+    position: relative;
+    top: 305px;
+}
+
+aside ul li {
+    display: inline-block;
+}
+
+aside, img {
+    float: right;
+    box-sizing: border-box;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+nav ul li {
+    font-size: 25px;
+    text-transform: lowercase;
+    display: block;
+    padding-top: 5px;
+}
+
+nav ul {
+    text-decoration: none;
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 10px 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F2FFFC;
+}
+
+nav ul li a:hover {
+    color: black;
+    background: white;
+}
+
+.github {
+    background-image: url(github.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -10000px;
+}
+
+.twitter {
+    background-image: url(twitter.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -10000px;
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -10000px;
+}
+/*Footer*/
+
+.rodape-bio {
+    background-color: #000;
+    color: #F2FFFC;
+    height: 35px;
+    padding-top: 0.2px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
